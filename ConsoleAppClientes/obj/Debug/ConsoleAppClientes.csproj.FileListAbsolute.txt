@@ -1,0 +1,10 @@
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\bin\Debug\ConsoleAppClientes.exe.config
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\bin\Debug\ConsoleAppClientes.exe
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\bin\Debug\ConsoleAppClientes.pdb
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\bin\Debug\ClassLibraryClientes.dll
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\bin\Debug\ClassLibraryClientes.pdb
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\obj\Debug\ConsoleAppClientes.csprojAssemblyReference.cache
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\obj\Debug\ConsoleAppClientes.csproj.CoreCompileInputs.cache
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\obj\Debug\ConsoleAppClientes.csproj.CopyComplete
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\obj\Debug\ConsoleAppClientes.exe
+C:\Users\Claudio\source\repos\ProyectoClientes\ConsoleAppClientes\obj\Debug\ConsoleAppClientes.pdb
