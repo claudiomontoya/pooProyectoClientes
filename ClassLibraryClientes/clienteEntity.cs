@@ -20,10 +20,7 @@ namespace ClassLibraryClientes
         public string Nombre { get => nombre; set => nombre = value; }
         public string Apellido { get => apellido; set => apellido = value; }
         public string Telefono { get => telefono; set => telefono = value; }
-
-
-
-
+     
         public clienteEntity()
         {
 
@@ -37,8 +34,13 @@ namespace ClassLibraryClientes
         }
 
 
-        public DataSet listadoClientes() {
+        public DataSet listadoClientes() {         
             return data.listado("SELECT * FROM CLIENTES");
+        }
+
+        public int guardar(clienteEntity cliente)
+        {
+            return data.ejecutar("Insert into CLIENTES(rut, nombre, apellido, telefono) values('" + cliente.Rut + "','" + cliente.Nombre + "','" + cliente.Apellido + "','" + cliente.Telefono + "')");
         }
     }
 }

@@ -34,5 +34,15 @@ namespace ClassLibraryClientes
             return data;
         }
 
+        public int ejecutar(string query) {
+            Conectar();
+            SqlCommand com = new SqlCommand(query, conexion);
+            int resultado = com.ExecuteNonQuery();
+            Desconectar();
+            return resultado;
+        }
+
+
+
     }
 }
