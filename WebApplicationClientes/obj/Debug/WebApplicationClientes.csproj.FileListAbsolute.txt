@@ -90,3 +90,5 @@ C:\Users\Claudio\source\repos\ProyectoClientes\WebApplicationClientes\obj\Debug\
 C:\Users\Claudio\source\repos\ProyectoClientes\WebApplicationClientes\obj\Debug\WebApplicationClientes.csproj.CopyComplete
 C:\Users\Claudio\source\repos\ProyectoClientes\WebApplicationClientes\obj\Debug\WebApplicationClientes.dll
 C:\Users\Claudio\source\repos\ProyectoClientes\WebApplicationClientes\obj\Debug\WebApplicationClientes.pdb
+C:\Users\Claudio\source\repos\ProyectoClientes\WebApplicationClientes\bin\ClassLibraryClientes.dll
+C:\Users\Claudio\source\repos\ProyectoClientes\WebApplicationClientes\bin\ClassLibraryClientes.pdb
