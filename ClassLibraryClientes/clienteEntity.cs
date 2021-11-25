@@ -47,5 +47,13 @@ namespace ClassLibraryClientes
         {
             return data.ejecutar("Insert into CLIENTES(rut, nombre, apellido, telefono) values('" + cliente.Rut + "','" + cliente.Nombre + "','" + cliente.Apellido + "','" + cliente.Telefono + "')");
         }
+        public int guardar()
+        {
+            return data.ejecutar("Insert into CLIENTES(rut, nombre, apellido, telefono) values('" + this.rut + "','" + this.nombre + "','" + this.apellido + "','" + this.telefono + "')");
+        }
+        public int eliminar()
+        {
+            return data.ejecutar("DELETE FROM CLIENTES WHERE RUT= '" + this.rut + "'");
+        }
     }
 }
