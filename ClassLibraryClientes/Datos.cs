@@ -43,6 +43,33 @@ namespace ClassLibraryClientes
         }
 
 
+        public DataSet listado(String NombreSP, List<claseParametro> lst)
+        {
+            DataSet dt = new DataSet();
+            SqlDataAdapter da;
+            try
+            {
+                Conectar();
+                da = new SqlDataAdapter(NombreSP, conexion);
+                da.SelectCommand.CommandType = CommandType.StoredProcedure;
+                if (lst != null)
+                {
+                    for (int i = 0; i < lst.Count; i++)
+                    {
+                        da.SelectCommand.Parameters.AddWithValue(lst[i].Nombre, lst[i].Valor);
+                    }
+                }
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            Desconectar();
+            return dt;
+        }
+
+
 
     }
 }

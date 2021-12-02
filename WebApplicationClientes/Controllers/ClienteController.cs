@@ -116,5 +116,44 @@ namespace WebApplicationClientes.Controllers
                 return resp;
             }
         }
-   }
+
+
+        [HttpGet]
+        [Route("api/v1/buscar")]
+        public respuesta buscarNombre(string rut = "", string nombre="")
+        {
+
+            respuesta resp = new respuesta();
+            try
+            {
+                List<clientes> listado = new List<clientes>();
+                clienteEntity clienteData = new clienteEntity();
+                DataSet data = clienteData.buscarNombre(rut,nombre);
+                for (int i = 0; i < data.Tables[0].Rows.Count; i++)
+                {
+                    clientes item = new clientes();
+                    item.rut = data.Tables[0].Rows[i].ItemArray[0].ToString();
+                    item.nombre = data.Tables[0].Rows[i].ItemArray[1].ToString();
+                    item.apellido = data.Tables[0].Rows[i].ItemArray[2].ToString();
+                    item.telefono = data.Tables[0].Rows[i].ItemArray[3].ToString();
+                    listado.Add(item);
+                }
+                //operacion correcta 
+                resp.error = false;
+                resp.mensaje = "ok";
+                if (listado.Count > 0)
+                    resp.data = listado;
+                else
+                    resp.data = "No se encontro cliente";
+                return resp;
+            }
+            catch (Exception e)
+            {
+                resp.error = true;
+                resp.mensaje = "Error:" + e.Message;
+                resp.data = null;
+                return resp;
+            }
+        }
+    }
 }
