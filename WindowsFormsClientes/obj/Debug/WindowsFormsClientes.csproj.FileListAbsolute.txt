@@ -11,3 +11,4 @@ C:\Users\Claudio\source\repos\ProyectoClientes\WindowsFormsClientes\obj\Debug\Wi
 C:\Users\Claudio\source\repos\ProyectoClientes\WindowsFormsClientes\bin\Debug\ClassLibraryClientes.dll
 C:\Users\Claudio\source\repos\ProyectoClientes\WindowsFormsClientes\bin\Debug\ClassLibraryClientes.pdb
 C:\Users\Claudio\source\repos\ProyectoClientes\WindowsFormsClientes\obj\Debug\WindowsFormsClientes.csproj.CopyComplete
+C:\Users\Claudio\source\repos\ProyectoClientes\WindowsFormsClientes\obj\Debug\WindowsFormsClientes.Form2.resources

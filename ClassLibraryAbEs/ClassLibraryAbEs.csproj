@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCE8749D-8987-49A4-8DDC-0D97EC3C1104}</ProjectGuid>
+    <ProjectGuid>{21370ABE-56C2-4B7F-B0AD-850101BE00FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassLibraryClientes</RootNamespace>
-    <AssemblyName>ClassLibraryClientes</AssemblyName>
+    <RootNamespace>ClassLibraryAbEs</RootNamespace>
+    <AssemblyName>ClassLibraryAbEs</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,16 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="campaniasMarketing.cs" />
-    <Compile Include="categoriaEntity.cs" />
-    <Compile Include="claseParametro.cs" />
-    <Compile Include="clienteEntity.cs" />
-    <Compile Include="Datos.cs" />
-    <Compile Include="emblue.cs" />
-    <Compile Include="fidelizador.cs" />
-    <Compile Include="ICrud.cs" />
-    <Compile Include="IEnviarMail.cs" />
-    <Compile Include="Implementacion.cs" />
+    <Compile Include="Estudiante.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

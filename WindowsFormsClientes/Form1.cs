@@ -23,6 +23,9 @@ namespace WindowsFormsClientes
 
         private void button1_Click(object sender, EventArgs e)
         {
+            clienteEntity cli2 = new clienteEntity();
+
+
             cliente.Rut = txt_rut.Text;
             cliente.Nombre = txt_nombre.Text;
             cliente.Apellido = txt_apellido.Text;
@@ -37,6 +40,19 @@ namespace WindowsFormsClientes
                 MessageBox.Show("Error en Guardado", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 obj = new Form2();
+            obj.ShowDialog();
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            global.usuario = textBox1.Text;
+           
         }
     }
 }
